@@ -9,11 +9,11 @@ nav > .screenreader{
     display: none;
 }
 
-body section h1{
+section h1{
     margin:0;
 }
 
-body section{
+section{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/skinmatch.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -23,26 +23,79 @@ body section{
     padding: 19em 3em;
 }
 
-body section div{
+section div{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-bottom:3.5em;
 }
-body section div p:first-of-type{
+section div p:first-of-type{
     font-style: italic;
     margin-top:0.2em;
 }
 
-body section div p:nth-of-type(2){
+section div p:nth-of-type(2){
     padding: 0.2em;
 
 }
-body section a{
+section a{
     padding: 1rem 7rem;
     background-color:#BCA39A;
     color: black;
     text-decoration: none;
     border-radius: 50px 50px;
 
+}
+/* page 2*/
+
+/*formulier is de naam van de 2de pagina*/
+.formulier { 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/skinmatch.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding: 10em 3em;
+    color: #52433e;
+
+}
+
+.formulier h1{
+    text-align: center;
+}
+
+.formulier .container{
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.formulier div label{
+    display: inline-block;
+    padding: 7px;
+    min-width: 6em;
+
+}
+
+.formulier div input{
+    display: inline;
+    padding-left:10px;
+    height: 1.5rem;
+    border: solid 0.2px;
+    border-color: #BCA39A;
+    width: 227px;
+
+}
+
+.formulier button{
+    padding: 1rem 4rem;
+    background-color:#BCA39A;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px 50px;
+    border-style: none;
+    margin-top: 30px;
+    margin-left: 10%;
 }
