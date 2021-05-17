@@ -6,6 +6,8 @@ const app = express()
 const port = 3006;
 
 const urlencodedParser = bodyParser.urlencoded({ extended: false})
+//const uri = "mongodb+srv://mrlne:<lexie1>@cluster0.1ysbk.mongodb.net/cluster0";
+const client = new MongoClient(url);
 
 // static files 
 app.use(express.static('static')) //de static files worden opgevraagd 
